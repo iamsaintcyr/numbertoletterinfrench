@@ -1,4 +1,5 @@
- $nwords = array( "zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept",
+function NumberToLetterInFrench($x) { 
+	$nwords = array( "zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept",
                    "huit", "neuf", "dix", "onze", "douze", "treize",
                    "quatorze", "quinze", "seize", "dix-sept", "dix-huit",
                    "dix-neuf", "vingt", 30 => "trente", 40 => "quarante",
@@ -67,8 +68,6 @@
 	         }elseif($r > 0){
 	            
 	            $w .= ' ';
-	            /*if($r < 100)
-	               $w .= ' '.$nwords["and"];*/
 	            $w .= NumberToLetterInFrench($r);
 	         }
 	      } else if($x < 1000000000) {    //  millions
@@ -95,3 +94,4 @@
 	   }
 	   return $w;
 	}
+}
