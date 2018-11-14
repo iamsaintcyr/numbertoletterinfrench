@@ -1,2 +1,6 @@
-# Number to Letter in french
-Convert easily number to letter in french
+# Number to Letter in french (PHP)
+Convert easily Integer Number to Letter in french
+
+For example, convert 1000 to Letter:
+
+echo NumberToLetterInFrench(1000) // output mille
