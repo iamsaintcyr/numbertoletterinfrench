@@ -1,0 +1,18 @@
+{
+    "name": "saintcyr/numbertoletterinfrench",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Saintcyr\\Numbertoletterinfrench\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saint Cyr",
+            "email": "saintcyrwin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
